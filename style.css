@@ -1,1 +1,14 @@
-ECHO is on.
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font-size: 16px;
+}
+li:nth-of-type(odd) {
+    background: rgb(229, 255, 0);
+}
+li:nth-of-type(even) {
+    background: rgb(136, 255, 0);
+}
